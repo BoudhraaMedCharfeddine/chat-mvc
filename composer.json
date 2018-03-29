@@ -1,0 +1,19 @@
+{
+    "name": "vendor/mvc-chat",
+    "authors": [
+        {
+            "name": "Mohamed Charfeddine Boudhraa",
+            "email": "boudhraa.med.charfeddine@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MVCApp\\": "src/"
+        },
+        "classmap": [
+            "app/Router.php",
+            "app/Database.php"
+        ]
+    },
+    "require": {}
+}
